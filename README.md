@@ -10,22 +10,20 @@ An AI-powered Recipe Generator that creates delicious recipes from user-provided
 
 ##  Features
 
-* Generate recipes from available ingredients
-* AI-powered recipe recommendations
-* Simple and user-friendly interface
-* Clean and structured recipe output
-* Powered by LangChain and Gemini API
-* Instant recipe generation
+- Generate recipes from available ingredients
+- AI-powered recipe recommendations
+- Clean and interactive UI
+- Instant recipe generation
+- Powered by LangChain and Gemini API
 
 ---
 
 ##  Tech Stack
 
-* Python
-* Streamlit
-* LangChain
-* Google Gemini API
-* LangChain Google GenAI
+- Python
+- Streamlit
+- LangChain
+- Google Gemini API
 
 ---
 
@@ -33,40 +31,57 @@ An AI-powered Recipe Generator that creates delicious recipes from user-provided
 
 1. Enter the ingredients you have available.
 2. Click **Generate Recipe**.
-3. The AI analyzes the ingredients.
+3. AI analyzes the ingredients.
 4. A complete recipe is generated instantly.
 
 ---
 
-## 📸 Application Demo
+## 📸 Screenshots
 
 ### Home Page
 
-Add your homepage screenshot here:
-
-```markdown
 ![Home Page](images/home_page.png)
-```
 
 ### Recipe Generation
 
-Add your generated recipe screenshot here:
-
-```markdown
 ![Recipe Generation](images/recipe_generation.png)
-```
 
 ### Example Output
 
-Add another screenshot showcasing recipe output:
-
-```markdown
 ![Generated Recipe](images/generate_recipe.png)
-```
 
 ---
 
-## Project Structure
+##  Example Input
+
+```text
+honey, lemon, water
+```
+
+## 🍴 Example Output
+
+**Warm Honey Lemon Drink**
+
+### Ingredients
+
+- 1 cup water
+- 1/2 fresh lemon
+- 1–2 teaspoons honey
+
+### Procedure
+
+1. Heat the water until warm.
+2. Squeeze half a lemon into a mug.
+3. Add honey and stir until dissolved.
+4. Serve immediately.
+
+### Generated Recipe Screenshot
+
+![Generated Recipe](images/generate_recipe.png)
+
+---
+
+## 📂 Project Structure
 
 ```text
 AI-Recipe-Generator/
@@ -75,33 +90,23 @@ AI-Recipe-Generator/
 ├── requirements.txt
 ├── README.md
 └── images/
-    ├── homepage.png
+    ├── home_page.png
     ├── recipe_generation.png
-    └── generated_recipe.png
+    └── generate_recipe.png
 ```
-
----
-Try entering ingredients like:
-
-- banana, bread, honey
-- milk, oats, banana
-- lemon, honey, water
-
-and let the AI generate a recipe instantly.
 
 ---
 
 ##  Future Enhancements
 
-* Nutritional Information Analysis
-* Cuisine-Based Recipe Suggestions
-* Recipe Saving & Sharing
-* Multi-Language Support
-* Voice Input Support
-* AI-Generated Food Images
+- Nutritional Information Analysis
+- Cuisine-Based Recipe Suggestions
+- Recipe Saving & Sharing
+- Multi-Language Support
+- Voice Input Support
 
 ---
 
 ##  Author
 
-Developed as an AI-powered recipe generation project using LangChain and Google's Gemini API.
+Developed using LangChain, Streamlit, and Google's Gemini API.
